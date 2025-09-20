@@ -24,6 +24,8 @@ python3 -m pip install -r requirements.txt
 
 # Run HULK
 python3 hulk.py
+
+
 For Termux (Android)
 bash
 Copy code
@@ -111,3 +113,4 @@ Tools like WebHive LOIC can take large websites offline when coordinated.
 ⚠️ The author/team is not responsible for misuse.
 
 ⚠️ Do not use for personal revenge or illegal activity.
+
