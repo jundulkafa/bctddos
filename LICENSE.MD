@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2022 Sumalya Chatterjee
+Copyright (c) 2025 Jundul Kafa
+Bangladesh Cyber Troops (BCT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
