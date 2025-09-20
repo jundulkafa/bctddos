@@ -69,7 +69,7 @@ def attack():
 
 
 root = Tk()
-root.title("HULK- DDOS Attack Tool")
+root.title("HULK- Team-BCT-DDOS Attack Tool")
 root.geometry("350x200+385+105")
 root.resizable(0, 0)
 
@@ -98,3 +98,4 @@ E2.pack(side=TOP)
 button = Button(root, text="attack", command=attack).pack(
     side=TOP)  # ,font=('comicsansms 19 bold')).pack(side=TOP)
 root.mainloop()
+
