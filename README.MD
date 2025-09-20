@@ -15,10 +15,13 @@
 ## **Git Installation**
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install python -y
+sudo apt install python3 -y
 sudo apt install git -y
-python -m pip install -r requirements.txt
-python hulk.py
+git clone https://github.com/jundulkafa/bctddos.git
+python3 -m pip install -r requirements.txt
+python3 hulk.py
+
+
 Debian Issue Solved
 If you see:
 
@@ -40,8 +43,12 @@ Copy code
 python3 -m venv path/to/venv
 source path/to/venv/bin/activate
 pip install -r requirements.txt
+
 What is DDOS Attack?
-DDoS (Distributed Denial of Service) is a type of cyber-attack used to make an online service, network resource, or host unavailable to its users. Targets are flooded with excessive requests, overwhelming the server and its resources. DDoS attacks originate from multiple sources, unlike regular DoS attacks.
+DDoS (Distributed Denial of Service) is a type of cyber-attack used to make an online service, 
+network resource, or host unavailable to its users. Targets are flooded with excessive requests, 
+overwhelming the server and its resources. DDoS attacks originate from multiple sources, 
+unlike regular DoS attacks.
 
 
 
@@ -90,3 +97,4 @@ Prevent DDOS Attack
 💀 Web Application Firewall (WAF): Filters incoming requests at the application layer.
 
 💀 Rate Limiting: Restrict number of requests over time.
+
