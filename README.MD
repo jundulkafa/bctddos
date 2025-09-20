@@ -1,100 +1,113 @@
-# **HULK** 
-## Http Unbearable Load King 👑
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue) ![Licence](https://img.shields.io/badge/Licence-MIT-yellowgreen) [![Download](https://img.shields.io/badge/Download-Now-green)](https://taguar258.github.io/Raven-Storm/INSTALLATION)
-
----
-
-## **DDOS Attack Script :**
-### 👽👾*Hulk* - most powerful ddos script based on python
-**✒️ Author : Jundul Kafa**  
-**🛡️ Team : Bangladesh Cyber Troops (BCT)**
+## **💻 DDOS Attack Script**
+### *Hulk* - Most powerful Python-based DDoS script
+**✒️ Author:** Jundul Kafa  
+**🛡️ Team:** Bangladesh Cyber Troops (BCT)
 
 ---
 
-## **Git Installation**
+## **⚙️ Installation & Setup**
+
+### **For Ubuntu / Debian / Kali Linux**
 ```bash
+# Update & upgrade system
 sudo apt update && sudo apt upgrade -y
-sudo apt install python3 -y
-sudo apt install git -y
+
+# Install Python & Git
+sudo apt install python3 python3-pip git -y
+
+# Clone Repository
 git clone https://github.com/jundulkafa/bctddos.git
+cd bctddos
+
+# Install Dependencies
 python3 -m pip install -r requirements.txt
+
+# Run HULK
 python3 hulk.py
+For Termux (Android)
+bash
+Copy code
+# Update packages
+pkg update && pkg upgrade -y
 
+# Install Python & Git
+pkg install python git -y
 
-Debian Issue Solved
+# Clone Repository
+git clone https://github.com/jundulkafa/bctddos.git
+cd bctddos
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Run HULK
+python hulk.py
+⚠️ Debian / Ubuntu Issue
 If you see:
 
 go
 Copy code
 error: externally-managed-environment
-It means your environment is system-managed.
-You can solve this by installing required modules:
+You can fix this by installing required modules:
 
 bash
 Copy code
-sudo apt install python3-scapy
-sudo apt install python3-django
-sudo apt install python3-tkinter
-Or, create a virtual environment:
+sudo apt install python3-scapy python3-django python3-tkinter -y
+Or create a virtual environment:
 
 bash
 Copy code
-python3 -m venv path/to/venv
-source path/to/venv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+🌐 What is a DDoS Attack?
+DDoS (Distributed Denial of Service) is a cyber-attack used to make an online service, network resource, or host unavailable to its users. The target is overwhelmed by excessive requests from multiple sources.
 
-What is DDOS Attack?
-DDoS (Distributed Denial of Service) is a type of cyber-attack used to make an online service, 
-network resource, or host unavailable to its users. Targets are flooded with excessive requests, 
-overwhelming the server and its resources. DDoS attacks originate from multiple sources, 
-unlike regular DoS attacks.
+⚡ Types of DDoS Attacks
+1️⃣ Application Layer Attacks
+Attackers repeatedly request the same resource to overload the server. Example: HTTP floods.
 
+2️⃣ Protocol Attacks
+Exhausts server/network resources like firewalls or load balancers. Example: SYN flood.
 
+3️⃣ Volumetric Attacks
+Floods server bandwidth. Example: DNS amplification attack.
 
-Types Of DDOS Attacks
-1. Application Layer Attacks
-Attackers repeatedly request the same resource to overwhelm the server. Common example: HTTP flood attacks.
+💣 DDoS Threats
+Executed via botnets controlling thousands of devices.
 
+Tools like WebHive LOIC can take large websites offline when coordinated.
 
+🚨 DDoS Challenges
+🔴 DNS floods, bandwidth exhaustion, or cloud exploitation.
 
-2. Protocol Attacks
-Exhausts server/network resources like firewalls or load balancers. Example: SYN flood attack.
+🔴 Low-intensity “degradation of service” attacks can bypass detection.
 
+🔴 IoT devices increase attack vectors.
 
+🔴 Endpoint monitoring is critical.
 
-3. Volumetric Attacks
-Floods server bandwidth to make it unavailable. Example: DNS amplification attack.
+🔴 87% of victims are attacked multiple times.
 
+❓ Why do DDoS Attacks Happen?
+💰 Ransom: Attackers demand payment after attacks.
 
+✊ Hacktivism: To voice opinions or protests.
 
-DDOS Threats
-DDoS attacks are often executed by botnets. Hackers coordinate thousands of devices to flood a target. Attack tools like WebHive LOIC, originally for “stresser testing”, can take commercial websites offline if coordinated.
+⚔️ Competition: Companies blame rivals for attacks.
 
-DDOS Challenges
-🔴 Attacks use DNS floods, bandwidth exhaustion, or cloud exploitation.
+🛡️ How to Prevent DDoS Attacks
+🕵️ Real-time packet analysis: Detect & drop malicious traffic.
 
-🔴 Lower-intensity service degradation attacks are harder to detect.
+🔰 DDoS Defense System (DDS): Automatic threat mitigation.
 
-🔴 IoT devices increase network entryways for attacks.
+🛡️ Web Application Firewall (WAF): Filter application layer requests.
 
-🔴 Endpoint monitoring tools are critical for mitigation.
+⏱️ Rate Limiting: Limit requests per time interval.
 
-🔴 87% of DDoS victims are targeted multiple times.
+📜 Disclaimer
+⚠️ Only use for learning purposes.
 
-Why do DDoS Attacks Happen?
-👉 Ransom: Attackers demand money after attacks or send prior threats.
+⚠️ The author/team is not responsible for misuse.
 
-👉 Hacktivism: Attacks are used to voice opinions or protests.
-
-👉 Competition: Companies sometimes blame competitors for attacks.
-
-Prevent DDOS Attack
-💀 Real-time packet analysis: Discard potentially malicious packets.
-
-💀 DDoS Defense System (DDS): Detects malicious content automatically.
-
-💀 Web Application Firewall (WAF): Filters incoming requests at the application layer.
-
-💀 Rate Limiting: Restrict number of requests over time.
-
+⚠️ Do not use for personal revenge or illegal activity.
